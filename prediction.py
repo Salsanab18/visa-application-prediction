@@ -102,7 +102,7 @@ def run():
 
         full_time = st.selectbox(
             'Full Time Position?',
-            ('Y', 'N')
+            ('Yes', 'No')
         )
 
         submitted = st.form_submit_button('Predict')
