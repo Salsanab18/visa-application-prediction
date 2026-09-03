@@ -57,12 +57,12 @@ def run():
 
         job_experience = st.selectbox(
             'Has Job Experience?',
-            ('Y', 'N')
+            ('Yes', 'No')
         )
 
         job_training = st.selectbox(
             'Requires Job Training?',
-            ('Y', 'N')
+            ('Yes', 'No')
         )
 
         no_of_employees = st.number_input(
